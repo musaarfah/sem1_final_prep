@@ -1,0 +1,12 @@
+i=1
+count = 5
+sum=0
+while i<=4:
+    j=1
+    while j<=count:
+        sum = sum + j
+        print(j,end=' ')
+        j=j+1
+    count=count+1
+    i=i+1
+    print('=',sum)

@@ -1,0 +1,10 @@
+file=open('records.txt','r')
+i=1
+line1=file.readline()
+while i<=line1:
+    j=1
+    while j<=line:
+        line = int(file.readline())
+        print(line,end=' ')
+        j=j+1
+    i=i+1
